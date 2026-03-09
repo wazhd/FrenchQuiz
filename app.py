@@ -57,6 +57,6 @@ if submit_button:
     elif st.session_state.score >= 3:
         st.info(f"Pas mal ! Ton score est de : {st.session_state.score}/5 👍")
     else:
-        st.warning(f"Tu peux faire mieux ! Score : {st.session_state.score}/5. Relis le script !")
+        st.warning(f"Tu peux faire mieux ! Score : {st.session_state.score}/5.")
 
 st.sidebar.info("Projet présenté par Ryan, Dravya, Joel et Carson.")
